@@ -1,7 +1,9 @@
-document.getElementById("current_date").innerHTML = Date();
 
-botaoSair.addEventListener('clicar', confirmarSaida)
+let data = new Date()
 
-function confirmarSaida() {
-    confirm("tem certeza?")
-}
+let novoElemento = document.getElementById('texto')
+
+// novoElemento.appendChild(data)
+
+console.log(data)
+console.log(novoElemento)

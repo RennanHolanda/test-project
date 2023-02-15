@@ -67,7 +67,7 @@ body {
     margin-right: 100px;
     height: 679px;
     position: relative;
-    opacity: 0.7;
+    opacity: 0.6;
   }
   
   .card1 {
@@ -299,7 +299,7 @@ body {
   }
   
   .secao3 {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 60px;
     margin-right: 60px;
     height: 55em;
@@ -341,7 +341,7 @@ body {
 #form1 input {
   height: 5em;
   width: 80%;
-  margin-top: 30px;
+ 
   display: flex;
   position: relative;
   top: 4em;
@@ -409,33 +409,198 @@ body {
     color: #707070;
   }
   
-  @media (max-width: 768px) {
+  @media (min-width: 320px) {
+
     .container {
-      background-color: #261136;
-      margin-left: 1em;
-      margin-right:1em;
+     width: 670px;
     }
-  
+
+    header {
+      height: 700px;
+    }
+
     .teste2 {
-      color: #FFF;
-      font-size: 3em;
-      /* background-color:black; */
-      max-width: 300px;
-      margin-left: 60px;
-      /* margin-right: auto; */
-      /* margin-top: 30px; */
-      position: absolute;
-      text-shadow: #000 2px 3px 2px;
+      font-size: 3.9em;
     }
-  
+
     #text1 {
-      display: flex;
-      height: 79px;
-      margin-left: 10px;
-      margin-right: 10px;
-      position: relative;
-      top: 13em;
-      font-size:10px
+      top:22em;
+      height: 4em;
+      margin-left: 50px;
+      margin-right: 50px;
+      font-size: 0.9em;
     }
+
+    #sec1 {
+      top:12.3em;
+      margin-left: 50px;
+      margin-right: 50px;
+      height: 37em;
+    }
+
+    .card1 {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .area1 {
+      font-size: 3em;
+    }
+
+    #aviao {
+      font-size: 0.8em;
+    }
+
+    .card2 {
+      /* background-color: burlywood; */
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 5px;
+    }
+
+    .area2 {
+      font-size: 1.5em;
+    }
+
+    .area3 {
+      font-size: 1.8em;
+    }
+
+    #view button {
+      margin-top: 43px;
+      height: 90px;
+    }
+
+    .card-area {
+      margin-left: 30px;
+      margin-right: 30px;
+      /* background-color: #8BC34A; */
+    }
+
+    #secao {
+      /* background-color: #431C60; */
+      margin-bottom: 24px;
+      font-size: 1.5em;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    #secao button {
+      width: 76px;
+      max-height: 76px;
+    }
+
+    .secao1 {
+      height: 31em;
+      background-color: #000;
+      margin-left: 0px;
+      margin-right: 0px;
+      width: 100%;
+    }
+
+    .secao2 {
+      height: 30em;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    #sec2 {
+      height: 30em;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .destiny {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    #div1-destiny p {
+      font-size: 2em;
+      margin-top: 2em;
+    }
+
+    #div1-destiny span{
+      font-size: 0.9em;
+    }
+
+    .form-check{
+      margin-top: 12px;
+    }
+
+    input.form-check-input {
+      width: 40px;
+      margin-left: 5px;
+    }
+
+    #line {
+      margin-right: 30px;
+      height: 100px;
+    }
+
+  .form-check1 {
+    font-size: 20px;
+    margin-top: 0px;
   }
+
+  #lapis {
+    margin-top: 0px;
+    margin-bottom: 58px;
+  }
+
+  #lapis button {
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+  }
+
+  #lapis img {
+    width: 30px;
+    height: 30px;
+  }
+
+  #card1 {
+    margin: 0;
+  }
+
+  .secao3 {
+      height: 30em;
+      margin-left: 0px;
+      margin-right: 0px;
+      background-color: #7b1fa2;
+  }
+
+  #sec3 {
+    height: 14em;
+    margin-left: 0px;
+    margin-right: 0px;
+    top: 16em;
+  }
+
+  .secao4 {
+    background-color:#9538e773;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+#form1 input {
+  font-size: 0.8em;
+  margin-top: 30px;
+}
+  
+  #area i {
+    font-size: 50px;
+  }
+
+  
+  #area button {
+    width: 100px;
+    height: 100px;
+  }
+
+  
+#area p, span {
+  font-size: 25px;
+}
+}
   
